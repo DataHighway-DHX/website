@@ -4520,7 +4520,8 @@ ul.count_down.white li p:nth-child(2) {
     border-top: 1px solid rgba(241, 242, 243, 0.5);
     padding: 1.25rem 0;
     position: relative;
-    z-index: 910
+    z-index: 910;
+	
 }
 
 .footer p {
