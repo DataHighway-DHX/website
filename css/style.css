@@ -4246,10 +4246,30 @@ ul.count_down.white li p:nth-child(2) {
     .single-version h2 span {
         font-size: 3rem;
     }
+   /* Original H1 tags
     .h1, h1{
         font-size: 5rem;
     }
-
+*/
+/*New H1 to make it more mobile friendly*/
+h1 {
+    font-size: 4.5vw;
+  }
+  
+  h2 {
+    font-size: 3.5vw;
+  }
+  
+  @media(max-width: @screen-xs-max){
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
+  /*End new H1*/
+  
     .team-two-block.d-flex{
         display: block !important;
     }
