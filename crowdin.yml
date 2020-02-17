@@ -10,4 +10,10 @@ files:
       - /video
       - .*
       - firebase.json
-    translation: '%two_letters_code%/%original_file_name%'
+      - /ja
+      - /ko
+      - /zh*
+      - /ach
+      - LICENSE
+      - privacy.pdf
+    translation: /%two_letters_code%/%original_file_name%
