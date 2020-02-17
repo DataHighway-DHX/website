@@ -63,3 +63,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+
+
+
+# Annoying Mac files
+.DS_Store
