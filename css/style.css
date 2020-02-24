@@ -1,3 +1,56 @@
+.btn-download.button-color-1 {
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download.button-color-1:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-download.button-color-1:focus {
+  outline: none;
+}
+
+.btn-download.button-color-1 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed, #bf2fcb);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+@media only screen and (min-width: 720px) {
+  .btn-download.button-color-1 {
+    font-size: 1.5em !important;
+    color: #fff !important;
+  }
+}
+
+/* Show Download Whitepaper Button with spacing below the DataHighway
+ * Logo when it wraps to next line on small screen sizes
+ */
+@media only screen and (max-width: 400px) {
+  .navbar-top-default {
+    height: 130px !important;
+  }
+  #datahighway {
+    padding-top: 20px !important;
+  }
+}
+
 /* ===================================
     About
 ====================================== */
